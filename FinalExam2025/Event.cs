@@ -20,12 +20,16 @@ namespace FinalExam2025
 
         #region constructors
 
-        public Event(string name, DateTime eventDate, List<Ticket> tickets, EventType typeOfevent)
+        public Event(string name, DateTime eventDate, EventType typeOfevent)
         {
             Name = name;
             EventDate = eventDate;
-            Tickets = tickets;
             TypeOfEvent = typeOfevent;
+        }
+
+        public Event()
+        {
+            
         }
 
         #endregion constructors

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalExam2025
 {
-    public class VIPTicket
+    public class VIPTicket : Ticket
     {
         #region properties
         public string AdditionalExtras { get; set; }
@@ -14,6 +14,11 @@ namespace FinalExam2025
         #endregion properties   
 
         #region constructors
+
+        public VIPTicket(string additionalExtras, string )
+        {
+
+        }
 
 
 

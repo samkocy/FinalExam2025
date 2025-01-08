@@ -17,7 +17,17 @@ namespace FinalExam2025
 
         #region constructors
 
-        
+        public Ticket (string name, decimal price, int avalilableTickets)
+        {
+            Name = name;
+            Price = price;
+            AvailableTickets = avalilableTickets;
+        }
+
+        public Ticket()
+        {
+            
+        }
 
         #endregion constructors
     }

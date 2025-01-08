@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FinalExam2025"
         mc:Ignorable="d"
-        Title="Liam and Noels Ticket Oasis" Height="450" Width="800">
+        Title="Liam and Noels Ticket Oasis" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <Label Content="Events" HorizontalAlignment="Left" Margin="64,49,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="tbxSearch" HorizontalAlignment="Left" Margin="263,53,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120"/>
