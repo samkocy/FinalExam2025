@@ -30,5 +30,15 @@ namespace FinalExam2025
         }
 
         #endregion constructors
+
+        #region methods
+
+        public override string ToString()
+        {
+            return $"{Name} {Price} [AVAILABLE - {AvailableTickets:C}]";
+        }
+
+        #endregion methods
+
     }
 }

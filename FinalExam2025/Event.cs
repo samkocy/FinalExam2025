@@ -43,7 +43,11 @@ namespace FinalExam2025
         }
 
         // ToString method, returns 
-        
+        public override string ToString()
+        {
+            return $"{Name} - {EventDate}";
+        }
+
 
         #endregion methods
     }

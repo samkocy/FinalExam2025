@@ -112,13 +112,7 @@ namespace FinalExam2025
         // method to reset and refresh the display
         private void UpdateDisplay(List<Event> events, List<Ticket> tickets, List<VIPTicket> vips)
         {
-            // reset the listboxes
-            lbxEvents.ItemsSource = null;
-            lbxTickets.ItemsSource = null;
-
-
            
-
         }
     }
 }
