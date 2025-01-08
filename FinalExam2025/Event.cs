@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FinalExam2025
 {
@@ -18,6 +19,7 @@ namespace FinalExam2025
 
 
         #region constructors
+
         public Event(string name, DateTime eventDate, List<Ticket> tickets, EventType typeOfevent)
         {
             Name = name;
@@ -26,11 +28,19 @@ namespace FinalExam2025
             TypeOfEvent = typeOfevent;
         }
 
-
-
-
         #endregion constructors
 
+        #region methods
 
+        // used to sort a list of events by the event date
+        public int CompareTo(Event other)
+        {
+            return this.EventDate.CompareTo(other.EventDate);
+        }
+
+        // ToString method, returns 
+        
+
+        #endregion methods
     }
 }
