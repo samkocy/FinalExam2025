@@ -14,7 +14,7 @@
         <ListBox x:Name="lbxTickets" HorizontalAlignment="Left" Height="263" Margin="416,89,0,0" VerticalAlignment="Top" Width="322" d:ItemsSource="{d:SampleData ItemCount=5}"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="481,373,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="tbxNumberOfTickets" HorizontalAlignment="Left" Margin="554,377,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnBook" Content="Button" HorizontalAlignment="Left" Margin="698,375,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnBook" Content="Book" HorizontalAlignment="Left" Margin="698,375,0,0" VerticalAlignment="Top" Click="btnBook_Click"/>
 
     </Grid>
 </Window>

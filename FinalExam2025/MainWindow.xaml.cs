@@ -45,14 +45,14 @@ namespace FinalExam2025
             Event e1 = new Event()
             {
                 Name = "Oasis Croke Park",
-                EventDate = new DateTime(2025, 06, 20),
+                EventDate = new DateTime(2025, 06, 20).Date,
                 TypeOfEvent = EventType.Music
             };
 
             Event e2 = new Event()
             {
                 Name = "Electric Picnic",
-                EventDate = new DateTime(2025, 08, 20),
+                EventDate = new DateTime(2025, 08, 20).Date,
                 TypeOfEvent = EventType.Music
             };
 
@@ -114,5 +114,13 @@ namespace FinalExam2025
         {
            
         }
+
+        private void btnBook_Click(object sender, RoutedEventArgs e)
+        {
+            //determine which box is selected
+
+        }
+
+
     }
 }

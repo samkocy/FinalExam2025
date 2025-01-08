@@ -35,7 +35,7 @@ namespace FinalExam2025
 
         public override string ToString()
         {
-            return $"{Name} {Price} [AVAILABLE - {AvailableTickets:C}]";
+            return $"{Name} {Price:C2} [AVAILABLE - {AvailableTickets}]";
         }
 
         #endregion methods
