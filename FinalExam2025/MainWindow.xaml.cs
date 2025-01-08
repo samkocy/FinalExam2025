@@ -32,7 +32,6 @@ namespace FinalExam2025
     {
         private List<Event> events = new List<Event>();
         private List<Ticket> tickets = new List<Ticket>();
-        private List<VIPTicket> vips = new List<VIPTicket>();
 
         public MainWindow()
         {
@@ -101,8 +100,8 @@ namespace FinalExam2025
             };
 
             // add to list
-            vips.Add(v1);
-            vips.Add(v2);
+            tickets.Add(v1);
+            tickets.Add(v2);
 
             // display
             lbxEvents.ItemsSource = events;
